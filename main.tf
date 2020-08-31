@@ -5,6 +5,7 @@ provider "aws" {
 }
 
 resource "aws_dynamodb_table" "tfc_example_table" {
+# my comment
   name = var.db_table_name
 
   read_capacity  = var.db_read_capacity
@@ -26,3 +27,4 @@ resource "aws_dynamodb_table" "tfc_example_table" {
     user_name = var.tag_user_name
   }
 }
+
