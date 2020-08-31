@@ -1,4 +1,5 @@
 provider "aws" {
+# Uses my personal account
   version = "2.33.0"
 
   region = var.aws_region
