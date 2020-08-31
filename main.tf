@@ -4,6 +4,7 @@ provider "aws" {
   region = var.aws_region
 }
 
+# required provider
 provider "random" {
   version = "2.2"
 }
